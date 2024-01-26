@@ -4,9 +4,47 @@ format: revealjs
 editor: visual
 ---
 
-https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/
++ https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/
++ https://github.com/JohnGavin/quarto_website
+  + _not_ https://github.com/JohnGavin/quarto_blog
 
-```{r usethis}
++ GitHub account in RStudio
+  + connect
+  + authenticated 
+
+## use_git create repo
+```{r use_git create repository}
+#| eval = FALSE
+if (!require(pacman)) install.packages('pacman')
+pacman::p_load(usethis)
 usethis::use_git()
 ```
 
+## use_github connect repo
+
+```{r use_github connect repo}
+#| eval = FALSE
+usethis::use_github()
+```
+
+## Quarto CLI publish 
++ From terminal window
+  + _not_ from a bash chunk
+```{bash Quarto CLI publish}
+#| eval = FALSE
+quarto publish netlify
+```
+
++ run `quarto render` 
+  + in the terminal 
+  + updates _freeze directory
++ always `quarto render` 
+  + before Github pushing
+
+## continuous deployment
++ https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/#configure-netlify-plugin
++ freeze computations so code only runs locally
+  + results in html.json file in _freeze folder
+
+## push a change
++ https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/#push-a-change-to-our-repo

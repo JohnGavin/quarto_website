@@ -3,7 +3,10 @@ title: "About"
 ---
 
 About this site
++ https://github.com/JohnGavin/quarto_website
+  + _not_ https://github.com/JohnGavin/quarto_blog
 
 ```{r}
+R.version.string
 1 + 1
 ```

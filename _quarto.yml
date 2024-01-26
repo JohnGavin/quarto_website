@@ -14,6 +14,8 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
+# https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/#freeze-computations
+execute:
+  freeze: auto
 
 
