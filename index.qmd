@@ -2,7 +2,7 @@
 title: "quarto_website"
 ---
 
-This is a Quarto website.
+This is a Quarto website
 + https://github.com/JohnGavin/quarto_website
   + _not_ https://github.com/JohnGavin/quarto_blog
 
