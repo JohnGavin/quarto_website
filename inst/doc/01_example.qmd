@@ -35,7 +35,7 @@ usethis::use_github()
 quarto publish netlify
 ```
 
-+ run `quarto render` 
++ run `quarto render` (or `quarto preview` first)
   + in the terminal 
   + updates _freeze directory
 + always `quarto render` 
