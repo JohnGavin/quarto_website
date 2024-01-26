@@ -1,8 +1,8 @@
 {
-  "hash": "db2b6706c05682c9658d1325dc6128e5",
+  "hash": "55db5cc67466039a906d5667a035b8a7",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Netlify\"\nformat: revealjs\neditor: visual\n---\n\n\nhttps://jadeyryan.com/blog/2023-11-19_publish-quarto-website/\n\n+ GitHub account in RStudio\n  + connect\n  + authenticated \n\n## use_git create repo\n\n::: {.cell}\n\n:::\n\n\n## use_github connect repo\n\n\n::: {.cell}\n\n:::\n\n\n## Quarto CLI publish \n+ From terminal window\n  + _not_ from a bash chunk\n\n::: {.cell}\n\n:::\n\n\n+ run `quarto render` \n  + in the terminal \n  + updates _freeze directory\n+ always `quarto render` \n  + before Github pushing\n\n## continuous deployment\n+ https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/#configure-netlify-plugin\n+ freeze computations so code only runs locally\n  + results in html.json file in _freeze folder\n\n## push a change\n+ https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/#push-a-change-to-our-repo\n",
+    "markdown": "---\ntitle: \"Netlify\"\nformat: revealjs\neditor: visual\n---\n\n\n+ https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/\n+ https://github.com/JohnGavin/quarto_website\n  + _not_ https://github.com/JohnGavin/quarto_blog\n\n+ GitHub account in RStudio\n  + connect\n  + authenticated \n\n## use_git create repo\n\n::: {.cell}\n\n:::\n\n\n## use_github connect repo\n\n\n::: {.cell}\n\n:::\n\n\n## Quarto CLI publish \n+ From terminal window\n  + _not_ from a bash chunk\n\n::: {.cell}\n\n:::\n\n\n+ run `quarto render` \n  + in the terminal \n  + updates _freeze directory\n+ always `quarto render` \n  + before Github pushing\n\n## continuous deployment\n+ https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/#configure-netlify-plugin\n+ freeze computations so code only runs locally\n  + results in html.json file in _freeze folder\n\n## push a change\n+ https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/#push-a-change-to-our-repo\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
